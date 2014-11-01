@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1323F56E195BC0C20059282F /* GIFImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1323F56D195BC0C20059282F /* GIFImage.h */; };
+		1323F570195BC0C20059282F /* GIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1323F56F195BC0C20059282F /* GIFImage.m */; };
+		1323F576195BC0C20059282F /* libGIFImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1323F56A195BC0C20059282F /* libGIFImage.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1323F577195BC0C20059282F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1323F562195BC0C20059282F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1323F569195BC0C20059282F;
+			remoteInfo = GIFImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1323F568195BC0C20059282F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1323F56E195BC0C20059282F /* GIFImage.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1323F56A195BC0C20059282F /* libGIFImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGIFImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1323F56D195BC0C20059282F /* GIFImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIFImage.h; sourceTree = "<group>"; };
+		1323F56F195BC0C20059282F /* GIFImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFImage.m; sourceTree = "<group>"; };
+		1323F575195BC0C20059282F /* GIFImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1323F57B195BC0C20059282F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1323F567195BC0C20059282F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1323F572195BC0C20059282F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1323F576195BC0C20059282F /* libGIFImage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1323F561195BC0C20059282F = {
+			isa = PBXGroup;
+			children = (
+				1323F56C195BC0C20059282F /* GIFImage */,
+				1323F579195BC0C20059282F /* GIFImageTests */,
+				1323F56B195BC0C20059282F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1323F56B195BC0C20059282F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1323F56A195BC0C20059282F /* libGIFImage.a */,
+				1323F575195BC0C20059282F /* GIFImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1323F56C195BC0C20059282F /* GIFImage */ = {
+			isa = PBXGroup;
+			children = (
+				1323F56D195BC0C20059282F /* GIFImage.h */,
+				1323F56F195BC0C20059282F /* GIFImage.m */,
+			);
+			path = GIFImage;
+			sourceTree = "<group>";
+		};
+		1323F579195BC0C20059282F /* GIFImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				1323F57A195BC0C20059282F /* Supporting Files */,
+			);
+			path = GIFImageTests;
+			sourceTree = "<group>";
+		};
+		1323F57A195BC0C20059282F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1323F57B195BC0C20059282F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1323F569195BC0C20059282F /* GIFImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1323F57E195BC0C20059282F /* Build configuration list for PBXNativeTarget "GIFImage" */;
+			buildPhases = (
+				1323F566195BC0C20059282F /* Sources */,
+				1323F567195BC0C20059282F /* Frameworks */,
+				1323F568195BC0C20059282F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GIFImage;
+			productName = GIFImage;
+			productReference = 1323F56A195BC0C20059282F /* libGIFImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1323F574195BC0C20059282F /* GIFImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1323F581195BC0C20059282F /* Build configuration list for PBXNativeTarget "GIFImageTests" */;
+			buildPhases = (
+				1323F571195BC0C20059282F /* Sources */,
+				1323F572195BC0C20059282F /* Frameworks */,
+				1323F573195BC0C20059282F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1323F578195BC0C20059282F /* PBXTargetDependency */,
+			);
+			name = GIFImageTests;
+			productName = GIFImageTests;
+			productReference = 1323F575195BC0C20059282F /* GIFImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1323F562195BC0C20059282F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Evol;
+				TargetAttributes = {
+					1323F569195BC0C20059282F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1323F574195BC0C20059282F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1323F569195BC0C20059282F;
+					};
+				};
+			};
+			buildConfigurationList = 1323F565195BC0C20059282F /* Build configuration list for PBXProject "GIFImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1323F561195BC0C20059282F;
+			productRefGroup = 1323F56B195BC0C20059282F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1323F569195BC0C20059282F /* GIFImage */,
+				1323F574195BC0C20059282F /* GIFImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1323F573195BC0C20059282F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1323F566195BC0C20059282F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1323F570195BC0C20059282F /* GIFImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1323F571195BC0C20059282F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1323F578195BC0C20059282F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1323F569195BC0C20059282F /* GIFImage */;
+			targetProxy = 1323F577195BC0C20059282F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1323F57C195BC0C20059282F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1323F57D195BC0C20059282F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1323F57F195BC0C20059282F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1323F580195BC0C20059282F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1323F582195BC0C20059282F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GIFImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1323F583195BC0C20059282F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GIFImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1323F565195BC0C20059282F /* Build configuration list for PBXProject "GIFImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1323F57C195BC0C20059282F /* Debug */,
+				1323F57D195BC0C20059282F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1323F57E195BC0C20059282F /* Build configuration list for PBXNativeTarget "GIFImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1323F57F195BC0C20059282F /* Debug */,
+				1323F580195BC0C20059282F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1323F581195BC0C20059282F /* Build configuration list for PBXNativeTarget "GIFImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1323F582195BC0C20059282F /* Debug */,
+				1323F583195BC0C20059282F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1323F562195BC0C20059282F /* Project object */;
+}
